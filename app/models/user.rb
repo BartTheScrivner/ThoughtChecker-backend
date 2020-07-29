@@ -21,4 +21,12 @@ has_many :senders, through: :received_affirmations
     self.received_affirmations + self.sent_affirmations
   end
 
+  def friendships
+    self.frienders + self.friendees
+  end
+
+  def friend_requests
+    self.friending_users.where(accepted == false)
+  end
+
 end
