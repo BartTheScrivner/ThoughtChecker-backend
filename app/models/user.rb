@@ -21,8 +21,12 @@ has_many :senders, through: :received_affirmations
     self.received_affirmations + self.sent_affirmations
   end
 
-  def friendships
+  def friends
     self.frienders + self.friendees
+  end
+
+  def friendships
+    self.friending_users + self.friended_users
   end
 
   def friend_requests
