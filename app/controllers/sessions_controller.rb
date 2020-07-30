@@ -2,7 +2,7 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by(name: params[:_json])
-    render json: user, include: [:affirmations, :friendships]
+    render json: user, include: [:affirmations, :friendships, :entries]
   end
 
   def destroy
