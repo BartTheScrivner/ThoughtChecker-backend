@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :entries
   resources :users 
+  resources :affirmations
 
   #Logins/Sessions
   get '/login', to: 'sessions#new'
