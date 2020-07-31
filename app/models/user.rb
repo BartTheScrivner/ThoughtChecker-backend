@@ -26,8 +26,9 @@ has_many :senders, through: :received_affirmations
   end
 
   def friendships
-    self.friending_users + self.friended_users
+    self.friended_users + self.friending_users
   end
+
 
   def friend_requests
     self.friending_users.where(accepted == false)

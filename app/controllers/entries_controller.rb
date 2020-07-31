@@ -5,13 +5,10 @@ class EntriesController < ApplicationController
         render json: entry
     end 
 
-    def edit
-        @entry = Entry.find(params[:id])
-    end 
-
     def update
-        @entry = Entry.find(params[:id])
-        @entry.update(entry_params)
+        entry = Entry.find(params[:id])
+        entry.update(entry_params)
+        render json: entry
     end 
 
     def destroy
