@@ -4,6 +4,6 @@ class FriendshipsController < ApplicationController
     byebug
     friendship = Friendship.find(params[:id])
     friendship.destroy
-    render json: {"Successful"}
+    render json: {:message =>"Successful"}
   end
 end
