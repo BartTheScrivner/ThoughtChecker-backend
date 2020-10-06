@@ -1,24 +1,32 @@
-# README
+<h1 align="center">Welcome to FYC (Fill Your Cup) 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> An aesthetic, minimalist SPA designed to track user moods and reveal friend-generated affirmations on bad days.
 
-Things you may want to cover:
+### ✨ [Demo](https://youtu.be/gv2Yb4NM_xg)
 
-* Ruby version
+## Usage
 
-* System dependencies
+```sh
+Fork and clone this repository, run rails db:create && rails db:migrate, then run rails s.
+```
 
-* Configuration
+## Author
 
-* Database creation
+👤 **Dave Frame & Luis Fernandez**
 
-* Database initialization
+* Website: https://medium.com/@DevDaveFrame
+* Github: [@DevDaveFrame](https://github.com/DevDaveFrame)
+* LinkedIn: [@dave-frame-mfa](https://linkedin.com/in/dave-frame-mfa)
 
-* How to run the test suite
+## Show your support
 
-* Services (job queues, cache servers, search engines, etc.)
+Give a ⭐️ if this project helped you!
 
-* Deployment instructions
-
-* ...
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
